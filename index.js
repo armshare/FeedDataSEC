@@ -22,7 +22,7 @@ async function getOrders() {
         let funds = await pool.request().query(`SELECT * FROM  fund_dim WHERE fund_status = 'RG'`);
         // console.log('funds ', funds)
         const fund = funds.recordset.map(i => ({ "proj_abbr_name": i.proj_abbr_name, "proj_id": i.proj_id }));
-Hey
+        console.log(JSON.stringify(fund))
         getFundRiskLevel(fund)
     }
     catch (error) {
