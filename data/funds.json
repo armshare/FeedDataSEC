@@ -1,0 +1,386 @@
+[
+  {
+      "proj_abbr_name": "RKF4",
+      "proj_id": "M0008_2537"
+  },
+  {
+      "proj_abbr_name": "K-FEQ",
+      "proj_id": "M0009_2543"
+  },
+  {
+      "proj_abbr_name": "K-SELECT",
+      "proj_id": "M0014_2536"
+  },
+  {
+      "proj_abbr_name": "K-FIXED",
+      "proj_id": "M0017_2538"
+  },
+  {
+      "proj_abbr_name": "RKBC",
+      "proj_id": "M0021_2538"
+  },
+  {
+      "proj_abbr_name": "K-VALUE",
+      "proj_id": "M0023_2538"
+  },
+  {
+      "proj_abbr_name": "KAB22B",
+      "proj_id": "M0023_2563"
+  },
+  {
+      "proj_abbr_name": "KHY24A-UI",
+      "proj_id": "M0026_2563"
+  },
+  {
+      "proj_abbr_name": "K-EQUITY",
+      "proj_id": "M0027_2535"
+  },
+  {
+      "proj_abbr_name": "KFF22C",
+      "proj_id": "M0027_2564"
+  },
+  {
+      "proj_abbr_name": "KFF22D",
+      "proj_id": "M0028_2564"
+  },
+  {
+      "proj_abbr_name": "K-MVEQ",
+      "proj_id": "M0030_2559"
+  },
+  {
+      "proj_abbr_name": "K-STEQ",
+      "proj_id": "M0037_2536"
+  },
+  {
+      "proj_abbr_name": "K-SFPLUS",
+      "proj_id": "M0038_2559"
+  },
+  {
+      "proj_abbr_name": "K-EUSMALL",
+      "proj_id": "M0045_2561"
+  },
+  {
+      "proj_abbr_name": "K-FIXEDPLUS",
+      "proj_id": "M0054_2560"
+  },
+  {
+      "proj_abbr_name": "K-INDIA",
+      "proj_id": "M0059_2554"
+  },
+  {
+      "proj_abbr_name": "KFLRMF",
+      "proj_id": "M0061_2544"
+  },
+  {
+      "proj_abbr_name": "KBLRMF",
+      "proj_id": "M0062_2544"
+  },
+  {
+      "proj_abbr_name": "KSFRMF",
+      "proj_id": "M0063_2544"
+  },
+  {
+      "proj_abbr_name": "KGBRMF",
+      "proj_id": "M0064_2544"
+  },
+  {
+      "proj_abbr_name": "KFIRMF",
+      "proj_id": "M0065_2544"
+  },
+  {
+      "proj_abbr_name": "KFF22E",
+      "proj_id": "M0065_2564"
+  },
+  {
+      "proj_abbr_name": "K-SEMQ",
+      "proj_id": "M0066_2560"
+  },
+  {
+      "proj_abbr_name": "KFF22F",
+      "proj_id": "M0067_2564"
+  },
+  {
+      "proj_abbr_name": "K-GB",
+      "proj_id": "M0070_2557"
+  },
+  {
+      "proj_abbr_name": "K-JPX",
+      "proj_id": "M0074_2558"
+  },
+  {
+      "proj_abbr_name": "K-ATECH",
+      "proj_id": "M0077_2564"
+  },
+  {
+      "proj_abbr_name": "K-GA",
+      "proj_id": "M0080_2545"
+  },
+  {
+      "proj_abbr_name": "KEC6-AI",
+      "proj_id": "M0085_2564"
+  },
+  {
+      "proj_abbr_name": "KCR3YD-AI",
+      "proj_id": "M0087_2562"
+  },
+  {
+      "proj_abbr_name": "KFF6MAW-AI",
+      "proj_id": "M0092_2564"
+  },
+  {
+      "proj_abbr_name": "K-GTPE20A-UI",
+      "proj_id": "M0096_2563"
+  },
+  {
+      "proj_abbr_name": "KFF22H",
+      "proj_id": "M0100_2564"
+  },
+  {
+      "proj_abbr_name": "KFF22G",
+      "proj_id": "M0101_2564"
+  },
+  {
+      "proj_abbr_name": "KFF22I",
+      "proj_id": "M0102_2564"
+  },
+  {
+      "proj_abbr_name": "KFF22J",
+      "proj_id": "M0103_2564"
+  },
+  {
+      "proj_abbr_name": "KFF6MAX-AI",
+      "proj_id": "M0115_2564"
+  },
+  {
+      "proj_abbr_name": "K-VIETNAM",
+      "proj_id": "M0118_2561"
+  },
+  {
+      "proj_abbr_name": "KACB",
+      "proj_id": "M0130_2545"
+  },
+  {
+      "proj_abbr_name": "K-CHANGE",
+      "proj_id": "M0131_2562"
+  },
+  {
+      "proj_abbr_name": "KASF",
+      "proj_id": "M0134_2545"
+  },
+  {
+      "proj_abbr_name": "KAEQ",
+      "proj_id": "M0135_2545"
+  },
+  {
+      "proj_abbr_name": "K-ENERGY",
+      "proj_id": "M0140_2558"
+  },
+  {
+      "proj_abbr_name": "KCR1YA-AI",
+      "proj_id": "M0140_2563"
+  },
+  {
+      "proj_abbr_name": "KFF6MAY-AI",
+      "proj_id": "M0141_2564"
+  },
+  {
+      "proj_abbr_name": "KHY24B-UI",
+      "proj_id": "M0144_2564"
+  },
+  {
+      "proj_abbr_name": "ABFTH",
+      "proj_id": "M0145_2549"
+  },
+  {
+      "proj_abbr_name": "K-SUSTAIN-UI",
+      "proj_id": "M0147_2564"
+  },
+  {
+      "proj_abbr_name": "K-CBOND",
+      "proj_id": "M0154_2541"
+  },
+  {
+      "proj_abbr_name": "KCR1YB-AI",
+      "proj_id": "M0156_2563"
+  },
+  {
+      "proj_abbr_name": "K-STAR",
+      "proj_id": "M0159_2549"
+  },
+  {
+      "proj_abbr_name": "K-USA",
+      "proj_id": "M0159_2555"
+  },
+  {
+      "proj_abbr_name": "K-SUPSTAR-SSFX",
+      "proj_id": "M0161_2563"
+  },
+  {
+      "proj_abbr_name": "KFF6MAZ-AI",
+      "proj_id": "M0166_2564"
+  },
+  {
+      "proj_abbr_name": "KTF3YA-AI",
+      "proj_id": "M0181_2562"
+  },
+  {
+      "proj_abbr_name": "KFF22K",
+      "proj_id": "M0185_2564"
+  },
+  {
+      "proj_abbr_name": "KFF22L",
+      "proj_id": "M0186_2564"
+  },
+  {
+      "proj_abbr_name": "KFF6MBA-AI",
+      "proj_id": "M0188_2564"
+  },
+  {
+      "proj_abbr_name": "KEC7-AI",
+      "proj_id": "M0190_2564"
+  },
+  {
+      "proj_abbr_name": "KGIFRMF",
+      "proj_id": "M0192_2559"
+  },
+  {
+      "proj_abbr_name": "K-GLOBE",
+      "proj_id": "M0204_2549"
+  },
+  {
+      "proj_abbr_name": "KCR1YC-AI",
+      "proj_id": "M0206_2564"
+  },
+  {
+      "proj_abbr_name": "K-2500",
+      "proj_id": "M0208_2550"
+  },
+  {
+      "proj_abbr_name": "K-ASIA",
+      "proj_id": "M0208_2556"
+  },
+  {
+      "proj_abbr_name": "K-SET50",
+      "proj_id": "M0209_2548"
+  },
+  {
+      "proj_abbr_name": "K-2510",
+      "proj_id": "M0209_2550"
+  },
+  {
+      "proj_abbr_name": "K-2520",
+      "proj_id": "M0210_2550"
+  },
+  {
+      "proj_abbr_name": "K-2530",
+      "proj_id": "M0211_2550"
+  },
+  {
+      "proj_abbr_name": "KSDLTF",
+      "proj_id": "M0212_2550"
+  },
+  {
+      "proj_abbr_name": "GOLDPF",
+      "proj_id": "M0216_2550"
+  },
+  {
+      "proj_abbr_name": "K-GINCOME",
+      "proj_id": "M0217_2558"
+  },
+  {
+      "proj_abbr_name": "K-OIL",
+      "proj_id": "M0237_2552"
+  },
+  {
+      "proj_abbr_name": "KEC8-AI",
+      "proj_id": "M0248_2564"
+  },
+  {
+      "proj_abbr_name": "K-ICT",
+      "proj_id": "M0250_2558"
+  },
+  {
+      "proj_abbr_name": "K-INDX",
+      "proj_id": "M0253_2558"
+  },
+  {
+      "proj_abbr_name": "KGLTF",
+      "proj_id": "M0254_2550"
+  },
+  {
+      "proj_abbr_name": "K-ASIAX",
+      "proj_id": "M0256_2564"
+  },
+  {
+      "proj_abbr_name": "K-US500X",
+      "proj_id": "M0257_2564"
+  },
+  {
+      "proj_abbr_name": "K20SLTF",
+      "proj_id": "M0262_2550"
+  },
+  {
+      "proj_abbr_name": "KEQLTF",
+      "proj_id": "M0265_2547"
+  },
+  {
+      "proj_abbr_name": "K-FITS",
+      "proj_id": "M0274_2560"
+  },
+  {
+      "proj_abbr_name": "KHY23A-UI",
+      "proj_id": "M0278_2562"
+  },
+  {
+      "proj_abbr_name": "WP-LIGHT",
+      "proj_id": "M0278_2564"
+  },
+  {
+      "proj_abbr_name": "MJLF",
+      "proj_id": "M0279_2550"
+  },
+  {
+      "proj_abbr_name": "K-MIDSMALL",
+      "proj_id": "M0279_2557"
+  },
+  {
+      "proj_abbr_name": "K-FITM",
+      "proj_id": "M0279_2560"
+  },
+  {
+      "proj_abbr_name": "WP-BALANCED",
+      "proj_id": "M0279_2564"
+  },
+  {
+      "proj_abbr_name": "WP-SPEEDUP",
+      "proj_id": "M0280_2564"
+  },
+  {
+      "proj_abbr_name": "K-FITL",
+      "proj_id": "M0281_2560"
+  },
+  {
+      "proj_abbr_name": "WP-ULTIMATE",
+      "proj_id": "M0281_2564"
+  },
+  {
+      "proj_abbr_name": "K-FITXL",
+      "proj_id": "M0282_2560"
+  },
+  {
+      "proj_abbr_name": "WP-SPARK",
+      "proj_id": "M0282_2564"
+  },
+  {
+      "proj_abbr_name": "KPNPF",
+      "proj_id": "M0289_2556"
+  },
+  {
+      "proj_abbr_name": "K-SGM",
+      "proj_id": "M0304_2558"
+  },
+  {
+    "proj_abbr_name": "KFF6MBB-AI",
+    "proj_id": "M0307_2564"
+  }
+]

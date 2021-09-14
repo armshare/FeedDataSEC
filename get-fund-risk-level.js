@@ -1,47 +1,57 @@
-const getFundRiskLevel = async (fund) => {
-  fund.forEach((fund, i) => {
-    setTimeout( () => {
-      request.get(
-        {
-          url: `https://api.sec.or.th/FundFactsheet/fund/${fund.proj_id}/suitability`,
-          headers: {
-            'Ocp-Apim-Subscription-Key': '35760a71a7a44f8694765d06425cac55',
-            'Cache-Control': 'no-cache'
-          }
-        }, 
-        (err, res, body) => {
-          console.log('res ', res )
-          if (err) { return console.log(err); }
-          const { risk_spectrum } = JSON.parse(body);
-          const result = { risk_spectrum };
-          if (result.risk_spectrum == "RS1") {
-              result['typeRisk'] = 'ความเสี่ยงระดับ 1';
-          } else if (result.risk_spectrum == "RS2") {
-              result['typeRisk'] = 'ความเสี่ยงระดับ 2';
-          } else if (result.risk_spectrum == "RS3") {
-              result['typeRisk'] = 'ความเสี่ยงระดับ 3';
-          } else if (result.risk_spectrum == "RS4") {
-              result['typeRisk'] = 'ความเสี่ยงระดับ 4';
-          } else if (result.risk_spectrum == "RS5") {
-              result['typeRisk'] = 'ความเสี่ยงระดับ 5';
-          } else if (result.risk_spectrum == "RS6") {
-              result['typeRisk'] = 'ความเสี่ยงระดับ 6';
-          } else if (result.risk_spectrum == "RS7") {
-              result['typeRisk'] = 'ความเสี่ยงระดับ 7';
-          } else if (result.risk_spectrum == "RS8") {
-              result['typeRisk'] = 'ความเสี่ยงระดับ 8';
-          } else {
-              result['typeRisk'] = 'ความเสี่ยงระดับ 8+';
-          }
+const axios = require('axios');
+const sleep = require('./sleep');
+const headers = require('./keys/api-key');
 
-          result['proj_abbr_name'] = fund.proj_abbr_name;
-          result['proj_id'] = fund.proj_id;
-          console.log('result api ', result);
-          addRisk(result)
-        });
-        console.log('fundRisk ', i , ' = ')
-      }, i * 1000, fund);
-  });
+
+const getFundRiskLevelAndAddToDatabase = async (funds) => {
+  for (const fund of funds) {
+    // Prepare options
+    const options = {
+      method: 'GET',
+      headers,
+      url: `https://api.sec.or.th/FundFactsheet/fund/${fund.proj_id}/suitability`,
+    };
+    
+    // Call to SEC API
+    const responseRisk = await axios(options);
+
+    let result = {};
+    // Prepare data
+    let risk_spectrum_desc = new Buffer(responseRisk.data.risk_spectrum_desc, 'base64');
+    result.risk_spectrum_desc = risk_spectrum_desc.toString();
+
+    const risk_spectrum = responseRisk.data.risk_spectrum;
+    result.proj_abbr_name = fund.proj_abbr_name;
+    result.proj_id = fund.proj_id;
+
+    if (risk_spectrum == "RS1") {
+      result.type_risk = 'ความเสี่ยงระดับ 1';
+    } else if (risk_spectrum == "RS2") {
+      result.type_risk = 'ความเสี่ยงระดับ 2';
+    } else if (risk_spectrum == "RS3") {
+      result.type_risk = 'ความเสี่ยงระดับ 3';
+    } else if (risk_spectrum == "RS4") {
+      result.type_risk = 'ความเสี่ยงระดับ 4';
+    } else if (risk_spectrum == "RS5") {
+      result.type_risk = 'ความเสี่ยงระดับ 5';
+    } else if (risk_spectrum == "RS6") {
+      result.type_risk = 'ความเสี่ยงระดับ 6';
+    } else if (risk_spectrum == "RS7") {
+      result.type_risk = 'ความเสี่ยงระดับ 7';
+    } else if (risk_spectrum == "RS8") {
+      result.type_risk = 'ความเสี่ยงระดับ 8';
+    } else {
+      result.type_risk = 'ความเสี่ยงระดับ 8+';
+    }
+    
+    console.log('result: ', result);
+
+
+    // TODO Add database
+
+    // นอน
+    await sleep(5000);
+  }
 }
 
-module.exports = getFundRiskLevel;
+module.exports = getFundRiskLevelAndAddToDatabase;
