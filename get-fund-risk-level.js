@@ -1,6 +1,7 @@
 const axios = require('axios');
 const sleep = require('./sleep');
 const headers = require('./keys/api-key');
+const addRisk = require('./add-risk')
 
 
 const getFundRiskLevelAndAddToDatabase = async (funds) => {
@@ -48,9 +49,9 @@ const getFundRiskLevelAndAddToDatabase = async (funds) => {
 
 
     // TODO Add database
-
+    await addRisk(result);
     // นอน
-    await sleep(5000);
+    await sleep(1000);
   }
 }
 
