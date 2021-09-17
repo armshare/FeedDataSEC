@@ -3,11 +3,12 @@
 const getOrder = require('./get-order');
 const getFundRiskLevelAndAddToDatabase = require('./get-fund-risk-level');
 const updateInceptionDate = require('./update-InceptionDate')
+const getFundRBenchmarkAndAddToDatabase = require('./get-fund-benchmark')
 const handleRisk = async () => {
   const funds = await getOrder();
   //console.log('funds', funds)
   //await getFundRiskLevelAndAddToDatabase(funds);
-  await updateInceptionDate(funds);
+  await getFundRBenchmarkAndAddToDatabase(funds);
 }
 
 handleRisk();
