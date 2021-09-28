@@ -26,23 +26,23 @@ const getFundRiskLevelAndAddToDatabase = async (funds) => {
     result.proj_id = fund.proj_id;
 
     if (risk_spectrum == "RS1") {
-      result.type_risk = 'ความเสี่ยงระดับ 1';
+      result.type_risk = '1';
     } else if (risk_spectrum == "RS2") {
-      result.type_risk = 'ความเสี่ยงระดับ 2';
+      result.type_risk = '2';
     } else if (risk_spectrum == "RS3") {
-      result.type_risk = 'ความเสี่ยงระดับ 3';
+      result.type_risk = '3';
     } else if (risk_spectrum == "RS4") {
-      result.type_risk = 'ความเสี่ยงระดับ 4';
+      result.type_risk = '4';
     } else if (risk_spectrum == "RS5") {
-      result.type_risk = 'ความเสี่ยงระดับ 5';
+      result.type_risk = '5';
     } else if (risk_spectrum == "RS6") {
-      result.type_risk = 'ความเสี่ยงระดับ 6';
+      result.type_risk = '6';
     } else if (risk_spectrum == "RS7") {
-      result.type_risk = 'ความเสี่ยงระดับ 7';
+      result.type_risk = '7';
     } else if (risk_spectrum == "RS8") {
-      result.type_risk = 'ความเสี่ยงระดับ 8';
+      result.type_risk = '8';
     } else {
-      result.type_risk = 'ความเสี่ยงระดับ 8+';
+      result.type_risk = '8+';
     }
     
     console.log('result: ', result);
