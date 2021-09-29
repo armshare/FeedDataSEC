@@ -6,7 +6,7 @@ const dbConfig = require('./keys/db-config');
 const getOrders = async () => {
   try {
     let pool = await sql.connect(dbConfig);
-     let funds = await pool.request().query(`SELECT * FROM  fund_dim WHERE fund_status = 'RG' order by proj_id asc`);
+     let funds = await pool.request().query(`SELECT * FROM  dim_fund order by proj_id asc`);
    // let funds = await pool.request().query(`select * from risk_null_temp`);
     
     // console.log('funds ', funds)
